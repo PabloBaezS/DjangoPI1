@@ -19,5 +19,6 @@ from practiceApp import views as practiceAppViews
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', practiceAppViews.home)
+    path('', practiceAppViews.home),
+    path('about/', practiceAppViews.about),
 ]

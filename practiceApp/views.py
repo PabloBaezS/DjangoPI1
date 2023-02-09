@@ -9,3 +9,5 @@ def home(request):
     #return render(request, 'home.html')
     return render(request, 'home.html', {'name':'Pablo Baez'})
 
+def about(request):
+    return render(request,'about.html')
